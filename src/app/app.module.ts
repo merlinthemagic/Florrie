@@ -17,7 +17,8 @@ import { TestingComponent } from './Views/testing/testing.component';
     BrowserModule,
     RouterModule.forRoot([
                           { path: 'home', component: HomeComponent },
-                          { path: 'duck', component: TestingComponent }
+                          { path: 'duck', component: TestingComponent },
+                          { path: '', component: HomeComponent }
     ])
   ],
   providers: [],
